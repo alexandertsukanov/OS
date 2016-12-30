@@ -75,13 +75,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
+    <ClCompile Include="RSAImpl.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\lab2\RSA.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\lab2\RSAImpl.cpp" />
+    <ClInclude Include="RSA.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -15,12 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="RSA.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="RSAImpl.cpp">
+    <ClCompile Include="lab2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
