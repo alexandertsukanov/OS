@@ -1,7 +1,7 @@
-#include <cmath>
+п»ї#include <cmath>
 
-//Проект для створення динамічної бібліотеки
-//Класс RSA
+//РџСЂРѕРµРєС‚ РґР»СЏ СЃС‚РІРѕСЂРµРЅРЅСЏ РґРёРЅР°РјС–С‡РЅРѕС— Р±С–Р±Р»С–РѕС‚РµРєРё
+//РљР»Р°СЃСЃ RSA
 
 class myRSA
 {
@@ -12,7 +12,7 @@ class myRSA
 	long E;
 	long D;
 
-	//Функції для зовнішіх програм.
+	//Р¤СѓРЅРєС†С–С— РґР»СЏ Р·РѕРІРЅС–С€С–С… РїСЂРѕРіСЂР°Рј.
 public:
 
 	_declspec(dllexport) 	myRSA(long P, long Q);
@@ -21,7 +21,7 @@ public:
 
 	_declspec(dllexport)  long Decrypt(long M);
 
-	//Внутрінні функції
+	//Р’РЅСѓС‚СЂС–РЅРЅС– С„СѓРЅРєС†С–С—
 private:
 
 	long findCOP();

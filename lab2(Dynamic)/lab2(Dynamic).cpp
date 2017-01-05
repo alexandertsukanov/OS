@@ -1,4 +1,4 @@
-// lab2(Static).cpp : Defines the entry polong for the console application.
+п»ї// lab2(Static).cpp : Defines the entry polong for the console application.
 //
 
 #include <windows.h>
@@ -8,11 +8,11 @@
 
 using namespace std;
 typedef myRSA(*fnPointer)(long, long);
-//Використання Динамічної бібліотеки
+//Р’РёРєРѕСЂРёСЃС‚Р°РЅРЅСЏ Р”РёРЅР°РјС–С‡РЅРѕС— Р±С–Р±Р»С–РѕС‚РµРєРё
 long main()
 { 
 
-//Перший спосіб
+//РџРµСЂС€РёР№ СЃРїРѕСЃС–Р±
 
 	myRSA my(3, 7);
 	
@@ -22,7 +22,7 @@ long main()
  cout << b << endl;
 
 
- //Другий закоментований спосіб
+ //Р”СЂСѓРіРёР№ Р·Р°РєРѕРјРµРЅС‚РѕРІР°РЅРёР№ СЃРїРѕСЃС–Р±
 
 	//HINSTANCE load = LoadLibrary(L"C:\\Users\\Alexander\\Projects\\C++\\OS\\Debug\\lab2.dll");
 	//if (load == NULL){
@@ -33,7 +33,7 @@ long main()
 	//else{
 	//	cout << "Dll loaded\n";
 	//}
-	////Получаємо адрессу на фунцію getmyRSA 
+	////РџРѕР»СѓС‡Р°С”РјРѕ Р°РґСЂРµСЃСЃСѓ РЅР° С„СѓРЅС†С–СЋ getmyRSA 
 	//	fnPointer pointer = (fnPointer)GetProcAddress(load, "getmyRSA");	
 	//	cout << pointer << endl;
 	//	myRSA my = pointer(3, 7);
