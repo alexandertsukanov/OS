@@ -1,5 +1,5 @@
 ﻿
-//один
+
 #include "tchar.h"
 #include "iostream"
 #include "locale.h"

@@ -14,7 +14,7 @@ long main()
 
 //Перший спосіб
 
-	myRSA my(3,7);
+	myRSA my(3, 7);
 	
  int a = my.Crypt(3);
  int b = my.Decrypt(a);
