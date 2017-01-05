@@ -15,12 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\lab2(Dynamic)\RSA.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\lab2(Dynamic)\RSAImpl.cpp">
+    <ClCompile Include="lab2%28Static%29.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -7,9 +7,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab1", "lab1\lab1.vcxproj",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab2(Dynamic)", "lab2(Dynamic)\lab2(Dynamic).vcxproj", "{3218D3FE-0E2F-42A9-8D14-4EB08B19DB4C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab2", "lab2\lab2.vcxproj", "{2D60F7AC-B956-43F8-B97E-2FDF98414826}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab2(StaticLib)", "lab2(StaticLib)\lab2(StaticLib).vcxproj", "{2D60F7AC-B956-43F8-B97E-2FDF98414826}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab2(Static)", "lab2(Static)\lab2(Static).vcxproj", "{AA70CB04-7D13-4B8E-94CC-560B026AD361}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab2(DynamicLib)", "lab2(DynamicLib)\lab2(DynamicLib).vcxproj", "{26F2DC79-D691-430F-8230-091396CC1FC5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{AA70CB04-7D13-4B8E-94CC-560B026AD361}.Debug|Win32.Build.0 = Debug|Win32
 		{AA70CB04-7D13-4B8E-94CC-560B026AD361}.Release|Win32.ActiveCfg = Release|Win32
 		{AA70CB04-7D13-4B8E-94CC-560B026AD361}.Release|Win32.Build.0 = Release|Win32
+		{26F2DC79-D691-430F-8230-091396CC1FC5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{26F2DC79-D691-430F-8230-091396CC1FC5}.Debug|Win32.Build.0 = Debug|Win32
+		{26F2DC79-D691-430F-8230-091396CC1FC5}.Release|Win32.ActiveCfg = Release|Win32
+		{26F2DC79-D691-430F-8230-091396CC1FC5}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
