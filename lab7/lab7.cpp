@@ -1,5 +1,4 @@
-// seventh_lab.cpp: определяет точку входа для консольного приложения.
-//
+
 
 #include "stdafx.h"
 #include "cpuschedule.h"

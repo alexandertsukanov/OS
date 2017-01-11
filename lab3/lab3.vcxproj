@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{E5CF783A-7E7F-4F37-BE5C-59A9AE2A7FB3}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>third_lab</RootNamespace>
+    <RootNamespace>lab3</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
