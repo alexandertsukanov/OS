@@ -92,13 +92,14 @@ int main(){
 	*/
 	wchar_t MotherUNICODE[sizeof(Mother)];	
 	MultiByteToWideChar(CP_ACP, 0, Mother, sizeof(Mother), MotherUNICODE, sizeof(Mother));
-	wprintf(L"Unicode мама %s\n", MotherUNICODE);
-	MessageBox(NULL, MotherUNICODE, _T("Мама"), MB_OK);
+	wprintf(L"Unicode мама %s\n", MotherUNICODE);	 
+	MessageBoxW(NULL, MotherUNICODE, L"Мама", MB_OK);
+
 
 	wchar_t FatherUNICODE[sizeof(Father)];
 	MultiByteToWideChar(CP_ACP, 0, Father, sizeof(Father), FatherUNICODE, sizeof(Father));
 	wprintf(L"Unicode папа %s\n", FatherUNICODE);
-	MessageBox(NULL, FatherUNICODE, _T("Папа"), MB_OK);
+	MessageBoxW(NULL, FatherUNICODE, L"Папа", MB_OK);
 
 	/*
 	8. Виконайте упорядкування масиву рядків, заданих в UNICODE. Для сортування
